@@ -17,3 +17,53 @@ Beneficiário → (Visualizar recursos)
 Administrador → (Gerenciar usuários)
 Administrador → (Gerenciar recursos)
 Administrador → (Gerenciar doações)
+
+
+------------------------------------------------------
+
+🎯 Diagrama de Classes (Modelo)
+Classe Usuario
+- id
+- nome
+- email
+- senha
+- tipoUsuario
+
+Métodos:
++ cadastrar()
++ login()
++ atualizar()
+
+----------------------------
+
+Classe Recurso
+- id
+- nome
+- tipo
+- quantidade
+- descricao
+
+Métodos:
++ cadastrar()
++ atualizar()
++ excluir()
+
+----------------------------
+
+Classe Doacao
+- id
+- data
+- status
+- quantidade
+
+Métodos:
++ registrar()
++ confirmarEntrega()
+
+----------------------------
+
+Relacionamentos:
+
+Usuario (1) -------- (N) Doacao
+Recurso (1) -------- (N) Doacao
+Usuario (1) -------- (N) Recurso
