@@ -1,1 +1,19 @@
 
+🎯 Diagrama de Caso de Uso (Modelo)
+👤 Atores
+Doador
+Beneficiário
+Administrador
+Doador → (Cadastrar-se)
+Doador → (Login)
+Doador → (Cadastrar recurso)
+Doador → (Registrar doação)
+Doador → (Visualizar histórico)
+
+Beneficiário → (Cadastrar-se)
+Beneficiário → (Confirmar recebimento)
+Beneficiário → (Visualizar recursos)
+
+Administrador → (Gerenciar usuários)
+Administrador → (Gerenciar recursos)
+Administrador → (Gerenciar doações)
