@@ -1,4 +1,4 @@
-✅ Regras de Negócio
+-- Regras de Negócio --
 
 RN01 – Apenas usuários cadastrados podem realizar doações.
 
