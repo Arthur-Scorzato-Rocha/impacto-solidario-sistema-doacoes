@@ -1,10 +1,9 @@
-# Regras de Negócio
+✅ Regras de Negócio
 
-- Um doador pode cadastrar vários itens para doação.
-- Um item só pode ser reservado se estiver com status "Disponível".
-- Um item só pode ser marcado como "Entregue" após ser reservado.
-- Um beneficiário pode registrar várias solicitações de ajuda.
-- Uma solicitação só pode ser marcada como "Atendida" após a entrega do item.
-- O sistema não deve permitir o cadastro de itens sem um doador vinculado.
-- Registros duplicados devem ser evitados sempre que possível.
-- Itens com status "Entregue" podem ser removidos do sistema.
+RN01 – Apenas usuários cadastrados podem realizar doações.
+RN02 – Cada doação deve estar vinculada a um doador e um beneficiário.
+RN03 – Uma doação só pode ser marcada como entregue após confirmação do beneficiário.
+RN04 – Recursos cadastrados devem possuir quantidade disponível.
+RN05 – Não é permitido registrar doação com quantidade maior que a disponível.
+RN06 – Um beneficiário pode receber várias doações.
+RN07 – Um doador pode realizar várias doações.
