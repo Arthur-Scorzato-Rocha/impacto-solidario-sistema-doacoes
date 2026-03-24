@@ -22,3 +22,4 @@ RNF05 – O sistema deve estar disponível 24 horas por dia.
 RNF06 – O sistema deve permitir manutenção e atualização facilitada.
 RNF07 – O sistema deve utilizar banco de dados relacional.
 
+ 
